@@ -14,25 +14,34 @@ Implementation of different variants of Linear Perceptron
     >>> # Single Sample Perceptron without Margin    
     ... clf = Perceptron(learning_rate=0.1, margin=0.0)
     >>> clf.MISSP(X, y)
-    >>> clf.plot_boundary()
     >>> clf.predict(testset)
     [1, 2, 1, 2, 2, 2]
+    >>> clf.plot_boundary()
+    ![alt tag](https://github.com/irshadbhat/Linear-Discriminant-Functions/SSP.png)
     >>> 
     >>>
     >>> # Single Sample Perceptron with Margin    
     ... clf = Perceptron(learning_rate=0.1, margin=1.0)
     >>> clf.MISSP(X, y)
-    >>> clf.plot_boundary()
     >>> clf.predict(testset)
     [1, 1, 1, 2, 2, 2]
+    >>> clf.plot_boundary()
+    ![alt tag](https://github.com/irshadbhat/Linear-Discriminant-Functions/MISSP.png)
     >>>
     >>> 
     >>> # Margin Infused Relaxation Algorithm
     ... clf = Perceptron(learning_rate = 2.0, margin=1.0)
     >>> clf.MIRA(X, y)
-    >>> clf.plot_boundary()
     >>> clf.predict(testset)
     [1, 1, 1, 2, 2, 2]
+    >>> clf.plot_boundary()
+    ![alt tag](https://github.com/irshadbhat/Linear-Discriminant-Functions/MIRA.png)
 
 
+## Contact:
+
+    Irshad Ahmad Bhat
+    MS-CSE IIITH, Hyderabad
+    bhatirshad127@gmail.com
+    irshad.bhat@research.iiit.ac.in
 
