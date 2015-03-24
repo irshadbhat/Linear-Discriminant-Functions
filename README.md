@@ -17,7 +17,7 @@ Implementation of different variants of Linear Perceptron
     >>> clf.predict(testset)
     [1, 2, 1, 2, 2, 2]
     >>> clf.plot_boundary()
-    ![alt tag](https://github.com/irshadbhat/Linear-Discriminant-Functions.git/SSP.png)
+![alt tag](https://github.com/irshadbhat/Linear-Discriminant-Functions.git/SSP.png)
     >>> 
     >>>
     >>> # Single Sample Perceptron with Margin    
@@ -26,7 +26,7 @@ Implementation of different variants of Linear Perceptron
     >>> clf.predict(testset)
     [1, 1, 1, 2, 2, 2]
     >>> clf.plot_boundary()
-    ![alt tag](https://github.com/irshadbhat/Linear-Discriminant-Functions.git/MISSP.png)
+![alt tag](https://github.com/irshadbhat/Linear-Discriminant-Functions.git/MISSP.png)
     >>>
     >>> 
     >>> # Margin Infused Relaxation Algorithm
@@ -35,7 +35,7 @@ Implementation of different variants of Linear Perceptron
     >>> clf.predict(testset)
     [1, 1, 1, 2, 2, 2]
     >>> clf.plot_boundary()
-    ![alt tag](https://github.com/irshadbhat/Linear-Discriminant-Functions.git/MIRA.png)
+![alt tag](https://github.com/irshadbhat/Linear-Discriminant-Functions.git/MIRA.png)
 
 
 ## Contact:
