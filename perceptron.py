@@ -86,9 +86,11 @@ class Perceptron():
     	    itr += 1
 	    self.flag = False
 	    self.update()
+	    '''
     	    print 'After iteration {} weights are:'.format(itr)
     	    print self.weights
     	    print '-'*80 + '\n'
+	    '''
 	print 'Converged after {} iterations'.format(itr)	
 
     def predict(self, test_set):
@@ -98,9 +100,9 @@ class Perceptron():
 	idx = pred_labels_==0
 	pred_labels_[idx] = self.labels_[0]
 	pred_labels_[~idx] = self.labels_[1]
-	return pred_labels_
+	return list(pred_labels_)
 
-    def plot_boundary(self, label_, cl):
+    def plot_boundary(self):
 	"""find two points on the seperation line defined by the final 
 	weight vector and join these points to plot seperating line"""
     	a, b, c = self.weights
